@@ -37,6 +37,7 @@ class LoginVC: UIViewController {
 
     
     // MARK: - Login Button Action
+    
     @IBAction func loginBtnClicked(_ sender: Any) {
         self.view.endEditing(true)
         let emailValidate = emailTextField.validate()

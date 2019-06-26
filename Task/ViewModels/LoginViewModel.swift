@@ -21,7 +21,6 @@ class LoginViewModel:FetchUserDataDelegate {
     private var email:String!
     private var pass:String!
     private var view:LoginVC!
-    private let disposeBag = DisposeBag()
 
     
     init(view:LoginVC) {
