@@ -21,7 +21,6 @@ class LoginViewModel:FetchUserDataDelegate {
     private var email:String!
     private var pass:String!
     private var view:LoginVC!
-    private var loginView:LoginView!
     private let disposeBag = DisposeBag()
 
     
@@ -48,7 +47,7 @@ class LoginViewModel:FetchUserDataDelegate {
         if response.success{
             self.view.loginSuccess(name: response.data.firstName)
         }else{
-            self.loginView.showAlert(error: response.message)
+            self.view.showAlert(error: response.message)
         }
     }
     
