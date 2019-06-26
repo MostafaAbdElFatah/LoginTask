@@ -8,8 +8,8 @@
 
 import Foundation
 
-// MARK: - Response
-struct Response: Codable {
+// MARK: - Auth
+struct Auth: Codable {
     let success: Bool
     let message: String
     let data: User

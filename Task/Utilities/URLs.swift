@@ -9,6 +9,6 @@
 import Foundation
 
 struct URLs {
-    private static let hostUrl = "https://za.com.sa/pharmacy/api"
+    private static let hostUrl = " https://yalladealz.com/api"
     public static let loginUrl = "\(hostUrl)/login"
 }
